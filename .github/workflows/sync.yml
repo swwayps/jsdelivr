@@ -1,0 +1,89 @@
+name: Sync releases
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-mirror
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync.py sync
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain -- .mirror-state.json releases)" ]; then
+            echo "assets=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "assets=false" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -n "$(git status --porcelain -- .mirror-keepalive)" ]; then
+            echo "keepalive=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "keepalive=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit assets
+        if: steps.changes.outputs.assets == 'true'
+        id: assets
+        run: |
+          git config user.name unplausible
+          git config user.email unplausible@noreply.codeberg.org
+          git add .mirror-state.json .mirror-keepalive releases
+          now=$(date +%s)
+          GIT_AUTHOR_DATE="@$now +0000" GIT_COMMITTER_DATE="@$now +0000" \
+            git commit -m "chore: sync release assets" \
+              -m "Mirror the latest validated stable archives from the three release sources."
+          echo "ref=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish manifest
+        if: steps.changes.outputs.assets == 'true'
+        run: |
+          python3 scripts/sync.py publish --ref "${{ steps.assets.outputs.ref }}"
+          git add manifest.json
+          now=$(date +%s)
+          GIT_AUTHOR_DATE="@$now +0000" GIT_COMMITTER_DATE="@$now +0000" \
+            git commit -m "chore: update mirror manifest" \
+              -m "Point consumers at commit-pinned jsDelivr assets."
+
+      - name: Keep scheduled workflow active
+        if: steps.changes.outputs.assets != 'true' && steps.changes.outputs.keepalive == 'true'
+        run: |
+          git config user.name unplausible
+          git config user.email unplausible@noreply.codeberg.org
+          git add .mirror-keepalive
+          now=$(date +%s)
+          GIT_AUTHOR_DATE="@$now +0000" GIT_COMMITTER_DATE="@$now +0000" \
+            git commit -m "chore: keep mirror active" \
+              -m "Keep GitHub's scheduled synchronization enabled."
+
+      - name: Push updates
+        if: steps.changes.outputs.assets == 'true' || steps.changes.outputs.keepalive == 'true'
+        run: git push origin HEAD:main
+
+      - name: Purge manifest and warm assets
+        if: steps.changes.outputs.assets == 'true'
+        run: |
+          curl -fsS --retry 3 --retry-all-errors \
+            "https://purge.jsdelivr.net/gh/swwayps/jsdelivr@main/manifest.json" || true
+          jq -r '.components[] | .url, .sha256_url' manifest.json |
+            while IFS= read -r url; do
+              curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors \
+                --connect-timeout 15 --max-time 120 -o /dev/null "$url"
+            done
