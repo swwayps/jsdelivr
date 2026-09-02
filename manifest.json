@@ -1,0 +1,41 @@
+{
+  "components": {
+    "lumen": {
+      "asset_at": "2026-08-10T21:02:43Z",
+      "id": 509254802,
+      "name": "lumen-linux.zip",
+      "repo": "swwayps/lumen",
+      "sha256": "6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/lumen/v2.8/6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b/lumen-linux.zip.sha256",
+      "size": 2760173,
+      "tag": "v2.8",
+      "updated_at": "2026-08-10T21:02:48Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/lumen/v2.8/6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b/lumen-linux.zip"
+    },
+    "plugin": {
+      "asset_at": "2026-08-10T22:13:54Z",
+      "id": 509322771,
+      "name": "luatools-linux.zip",
+      "repo": "swwayps/luatools-moon",
+      "sha256": "41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/plugin/v2.8/41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004/luatools-linux.zip.sha256",
+      "size": 2074909,
+      "tag": "v2.8",
+      "updated_at": "2026-08-10T22:13:59Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/plugin/v2.8/41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004/luatools-linux.zip"
+    },
+    "slsteam-moon": {
+      "asset_at": "2026-09-01T15:51:31Z",
+      "id": 539777398,
+      "name": "slsteam-moon-linux-2.8-lumen.zip",
+      "repo": "swwayps/slsteam-moon",
+      "sha256": "373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/slsteam-moon/v2.8/373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3/slsteam-moon-linux-2.8-lumen.zip.sha256",
+      "size": 4933515,
+      "tag": "v2.8",
+      "updated_at": "2026-09-01T15:53:31Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@57d98dcb0a393d5baa14e2e1976d2851dc5a2904/releases/slsteam-moon/v2.8/373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3/slsteam-moon-linux-2.8-lumen.zip"
+    }
+  },
+  "schema": 1
+}
