@@ -23,15 +23,21 @@
       "updated_at": "2026-08-10T22:13:59Z"
     },
     "slsteam-moon": {
-      "asset_at": "2026-09-01T15:51:31Z",
-      "id": 539777398,
+      "asset_at": "2026-09-03T23:30:43Z",
+      "id": 543479242,
       "name": "slsteam-moon-linux-2.8-lumen.zip",
-      "path": "releases/slsteam-moon/v2.8/373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3/slsteam-moon-linux-2.8-lumen.zip",
+      "path": "releases/slsteam-moon/v2.8/2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41/slsteam-moon-linux-2.8-lumen.zip",
+      "previous": [
+        {
+          "path": "releases/slsteam-moon/v2.8/373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3/slsteam-moon-linux-2.8-lumen.zip",
+          "sha256": "373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3"
+        }
+      ],
       "repo": "swwayps/slsteam-moon",
-      "sha256": "373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3",
-      "size": 4933515,
+      "sha256": "2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41",
+      "size": 4938654,
       "tag": "v2.8",
-      "updated_at": "2026-09-01T15:53:31Z"
+      "updated_at": "2026-09-03T23:31:38Z"
     }
   },
   "schema": 1
