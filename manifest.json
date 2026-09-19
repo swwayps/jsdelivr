@@ -6,11 +6,11 @@
       "name": "lumen-linux.zip",
       "repo": "swwayps/lumen",
       "sha256": "e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip.sha256",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip.sha256",
       "size": 2833743,
       "tag": "v2.9",
       "updated_at": "2026-09-19T05:27:10Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip"
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip"
     },
     "plugin": {
       "asset_at": "2026-09-19T05:27:28Z",
@@ -18,23 +18,23 @@
       "name": "luatools-linux.zip",
       "repo": "swwayps/luatools-moon",
       "sha256": "f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip.sha256",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip.sha256",
       "size": 2052629,
       "tag": "v2.9",
       "updated_at": "2026-09-19T05:27:31Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip"
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip"
     },
     "slsteam-moon": {
-      "asset_at": "2026-09-19T06:44:37Z",
-      "id": 574250873,
+      "asset_at": "2026-09-19T17:33:49Z",
+      "id": 575188153,
       "name": "slsteam-moon-linux-2.9-lumen.zip",
       "repo": "swwayps/slsteam-moon",
-      "sha256": "5024c0195009389164edb641fb2c12b27b63d027f0b94202458202bc33931f15",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/slsteam-moon/v2.9/5024c0195009389164edb641fb2c12b27b63d027f0b94202458202bc33931f15/slsteam-moon-linux-2.9-lumen.zip.sha256",
-      "size": 5031494,
+      "sha256": "227f0c60b2d34a58d446e6a4977ecc317e941bfd42c6a7344a83a270a724f001",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/slsteam-moon/v2.9/227f0c60b2d34a58d446e6a4977ecc317e941bfd42c6a7344a83a270a724f001/slsteam-moon-linux-2.9-lumen.zip.sha256",
+      "size": 5032079,
       "tag": "v2.9",
-      "updated_at": "2026-09-19T06:44:44Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@4892851622c60a026d5b01d771702eacdfc5b6ee/releases/slsteam-moon/v2.9/5024c0195009389164edb641fb2c12b27b63d027f0b94202458202bc33931f15/slsteam-moon-linux-2.9-lumen.zip"
+      "updated_at": "2026-09-19T17:33:54Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@441699449b19f56e32780c06939ba179dec95dc8/releases/slsteam-moon/v2.9/227f0c60b2d34a58d446e6a4977ecc317e941bfd42c6a7344a83a270a724f001/slsteam-moon-linux-2.9-lumen.zip"
     }
   },
   "schema": 1
