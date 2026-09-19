@@ -1,43 +1,55 @@
 {
   "components": {
     "lumen": {
-      "asset_at": "2026-08-10T21:02:43Z",
-      "id": 509254802,
+      "asset_at": "2026-09-19T05:27:06Z",
+      "id": 574148231,
       "name": "lumen-linux.zip",
-      "path": "releases/lumen/v2.8/6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b/lumen-linux.zip",
-      "repo": "swwayps/lumen",
-      "sha256": "6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b",
-      "size": 2760173,
-      "tag": "v2.8",
-      "updated_at": "2026-08-10T21:02:48Z"
-    },
-    "plugin": {
-      "asset_at": "2026-08-10T22:13:54Z",
-      "id": 509322771,
-      "name": "luatools-linux.zip",
-      "path": "releases/plugin/v2.8/41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004/luatools-linux.zip",
-      "repo": "swwayps/luatools-moon",
-      "sha256": "41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004",
-      "size": 2074909,
-      "tag": "v2.8",
-      "updated_at": "2026-08-10T22:13:59Z"
-    },
-    "slsteam-moon": {
-      "asset_at": "2026-09-03T23:30:43Z",
-      "id": 543479242,
-      "name": "slsteam-moon-linux-2.8-lumen.zip",
-      "path": "releases/slsteam-moon/v2.8/2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41/slsteam-moon-linux-2.8-lumen.zip",
+      "path": "releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip",
       "previous": [
         {
-          "path": "releases/slsteam-moon/v2.8/373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3/slsteam-moon-linux-2.8-lumen.zip",
-          "sha256": "373211a45ff9442aa4665bf1403a4473eb1f3ad515142643ae8df348dd7437a3"
+          "path": "releases/lumen/v2.8/6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b/lumen-linux.zip",
+          "sha256": "6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b"
+        }
+      ],
+      "repo": "swwayps/lumen",
+      "sha256": "e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec",
+      "size": 2833743,
+      "tag": "v2.9",
+      "updated_at": "2026-09-19T05:27:10Z"
+    },
+    "plugin": {
+      "asset_at": "2026-09-19T05:27:28Z",
+      "id": 574148897,
+      "name": "luatools-linux.zip",
+      "path": "releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip",
+      "previous": [
+        {
+          "path": "releases/plugin/v2.8/41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004/luatools-linux.zip",
+          "sha256": "41e3bec47702642192203ac303c8934e8f0de247b6ac42387c7948d1a1d4a004"
+        }
+      ],
+      "repo": "swwayps/luatools-moon",
+      "sha256": "f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae",
+      "size": 2052629,
+      "tag": "v2.9",
+      "updated_at": "2026-09-19T05:27:31Z"
+    },
+    "slsteam-moon": {
+      "asset_at": "2026-09-19T06:44:37Z",
+      "id": 574250873,
+      "name": "slsteam-moon-linux-2.9-lumen.zip",
+      "path": "releases/slsteam-moon/v2.9/5024c0195009389164edb641fb2c12b27b63d027f0b94202458202bc33931f15/slsteam-moon-linux-2.9-lumen.zip",
+      "previous": [
+        {
+          "path": "releases/slsteam-moon/v2.8/2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41/slsteam-moon-linux-2.8-lumen.zip",
+          "sha256": "2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41"
         }
       ],
       "repo": "swwayps/slsteam-moon",
-      "sha256": "2bb3fc08549a116b65e3421d8f5610633304bf180c09cf1eb7b8f40b5d5dbe41",
-      "size": 4938654,
-      "tag": "v2.8",
-      "updated_at": "2026-09-03T23:31:38Z"
+      "sha256": "5024c0195009389164edb641fb2c12b27b63d027f0b94202458202bc33931f15",
+      "size": 5031494,
+      "tag": "v2.9",
+      "updated_at": "2026-09-19T06:44:44Z"
     }
   },
   "schema": 1
