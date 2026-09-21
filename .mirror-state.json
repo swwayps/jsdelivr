@@ -1,21 +1,21 @@
 {
   "components": {
     "lumen": {
-      "asset_at": "2026-09-19T05:27:06Z",
-      "id": 574148231,
+      "asset_at": "2026-09-21T02:16:25Z",
+      "id": 578021329,
       "name": "lumen-linux.zip",
-      "path": "releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip",
+      "path": "releases/lumen/v2.9/7aa0cb7fb6a6ddc73b8d548de3f4f0d58d36d158be0ca8fe32370dd10e41daa7/lumen-linux.zip",
       "previous": [
         {
-          "path": "releases/lumen/v2.8/6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b/lumen-linux.zip",
-          "sha256": "6080547ec0116f9d5ad2c0ed70b0754f202be105e4cee73f6669645af9f90c7b"
+          "path": "releases/lumen/v2.9/e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec/lumen-linux.zip",
+          "sha256": "e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec"
         }
       ],
       "repo": "swwayps/lumen",
-      "sha256": "e71b120d47d94aa053b28a0d1b5648bcc84fc41712e9da160e1bc6d3e2c1f4ec",
-      "size": 2833743,
+      "sha256": "7aa0cb7fb6a6ddc73b8d548de3f4f0d58d36d158be0ca8fe32370dd10e41daa7",
+      "size": 2834287,
       "tag": "v2.9",
-      "updated_at": "2026-09-19T05:27:10Z"
+      "updated_at": "2026-09-21T02:16:28Z"
     },
     "plugin": {
       "asset_at": "2026-09-19T05:27:28Z",
