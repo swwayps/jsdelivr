@@ -1,40 +1,40 @@
 {
   "components": {
     "lumen": {
-      "asset_at": "2026-09-21T02:16:25Z",
-      "id": 578021329,
+      "asset_at": "2026-11-20T17:07:42Z",
+      "id": 772640486,
       "name": "lumen-linux.zip",
       "repo": "swwayps/lumen",
-      "sha256": "7aa0cb7fb6a6ddc73b8d548de3f4f0d58d36d158be0ca8fe32370dd10e41daa7",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/lumen/v2.9/7aa0cb7fb6a6ddc73b8d548de3f4f0d58d36d158be0ca8fe32370dd10e41daa7/lumen-linux.zip.sha256",
-      "size": 2834287,
+      "sha256": "9365bb15b364f0da85003e72c91950dea63094c5cf66eb2983e870969543f69c",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/lumen/v2.9/9365bb15b364f0da85003e72c91950dea63094c5cf66eb2983e870969543f69c/lumen-linux.zip.sha256",
+      "size": 2834199,
       "tag": "v2.9",
-      "updated_at": "2026-09-21T02:16:28Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/lumen/v2.9/7aa0cb7fb6a6ddc73b8d548de3f4f0d58d36d158be0ca8fe32370dd10e41daa7/lumen-linux.zip"
+      "updated_at": "2026-11-20T17:07:50Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/lumen/v2.9/9365bb15b364f0da85003e72c91950dea63094c5cf66eb2983e870969543f69c/lumen-linux.zip"
     },
     "plugin": {
-      "asset_at": "2026-09-19T05:27:28Z",
-      "id": 574148897,
+      "asset_at": "2026-11-20T17:07:57Z",
+      "id": 772641216,
       "name": "luatools-linux.zip",
       "repo": "swwayps/luatools-moon",
-      "sha256": "f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip.sha256",
-      "size": 2052629,
+      "sha256": "50f88a897804137af8248a5c0ec3cf89282431a56c43bf30e34b2103f260f270",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/plugin/v2.9/50f88a897804137af8248a5c0ec3cf89282431a56c43bf30e34b2103f260f270/luatools-linux.zip.sha256",
+      "size": 2053840,
       "tag": "v2.9",
-      "updated_at": "2026-09-19T05:27:31Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/plugin/v2.9/f4ddb67c66be66108834885634767cf69e7cf542aa7c121ea17f61d1fefc4dae/luatools-linux.zip"
+      "updated_at": "2026-11-20T17:08:01Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/plugin/v2.9/50f88a897804137af8248a5c0ec3cf89282431a56c43bf30e34b2103f260f270/luatools-linux.zip"
     },
     "slsteam-moon": {
-      "asset_at": "2026-10-22T15:48:16Z",
-      "id": 666314278,
-      "name": "slsteam-moon-linux-2.9-lumen.zip",
+      "asset_at": "2026-11-20T17:07:27Z",
+      "id": 772639794,
+      "name": "slsteam-moon-linux-3.0-lumen.zip",
       "repo": "swwayps/slsteam-moon",
-      "sha256": "c05d2328c9902673295cd76c2e299dc853ab760fd470d67d15377e5c10995c72",
-      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/slsteam-moon/v2.9/c05d2328c9902673295cd76c2e299dc853ab760fd470d67d15377e5c10995c72/slsteam-moon-linux-2.9-lumen.zip.sha256",
-      "size": 5023592,
-      "tag": "v2.9",
-      "updated_at": "2026-10-22T15:49:48Z",
-      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@6c975b97b071ce9953502f7a46417e12cc737af9/releases/slsteam-moon/v2.9/c05d2328c9902673295cd76c2e299dc853ab760fd470d67d15377e5c10995c72/slsteam-moon-linux-2.9-lumen.zip"
+      "sha256": "f65d3798576d9b21b5516ca1827a846b0b80227aa911470ee2a675b218ef707c",
+      "sha256_url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/slsteam-moon/v3.0/f65d3798576d9b21b5516ca1827a846b0b80227aa911470ee2a675b218ef707c/slsteam-moon-linux-3.0-lumen.zip.sha256",
+      "size": 6613223,
+      "tag": "v3.0",
+      "updated_at": "2026-11-20T17:07:34Z",
+      "url": "https://cdn.jsdelivr.net/gh/swwayps/jsdelivr@fa638e7aec785b4f4999a5417add94a4c1dae94e/releases/slsteam-moon/v3.0/f65d3798576d9b21b5516ca1827a846b0b80227aa911470ee2a675b218ef707c/slsteam-moon-linux-3.0-lumen.zip"
     }
   },
   "schema": 1
